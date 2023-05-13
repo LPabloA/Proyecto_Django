@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "polls.apps.PollsConfig"  # esto lo puse yo para que detecte mi aplicacion creada
 ]
 
 MIDDLEWARE = [
